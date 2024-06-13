@@ -1,3 +1,13 @@
 # GmailClone
 
-Projeto pessoal para fins de estudo, em andamento, clonando o Gmail. A intenção é utilizar o sistema de envios de e-mail, 
+## Sobre o projeto
+Este é mais um dos projetos pessoais aleatórios que crio. A ideia é "recriar" o Gmail, e para simular os envios de e-mail irei utilizar o [Resend](https://resend.com/emails).
+
+## Stacks
+![](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) 
+
+
+
+
+
+
