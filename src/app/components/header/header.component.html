@@ -1,14 +1,24 @@
 <header class="w-full border border-red-500 flex w-100 p-2">
-    <div class="w-60 flex px-6">
+    <div class="w-60 flex items-center px-6">
         <svg class="hover: cursor-pointer hover:bg-menu-hamburger-hover" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 -960 960 960" width="25px" fill="#F3F3F3">
             <path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z" />
         </svg>
-        <img class="w-28 ml-3" src="../../../assets/images/logo_gmail.png" alt="Logo Gmail">
+        <a href="#">
+            <img class="w-28 ml-3 hover: cursor-pointer" src="../../../assets/images/logo_gmail.png" alt="Logo Gmail">
+        </a>
     </div>
     <div class="flex justify-between w-full">
         <div class="w-6/12 ml-8">
-            <input class="w-full h-12 bg-background-serch-input rounded-full" type="text">
+            <button role="button" class="hover:cursor-pointers absolute top-5 pl-3">
+                <svg class="hover:bg-gray-600 rounded-full w-8 h-6" xmlns="http://www.w3.org/2000/svg" bg height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#e8eaed">
+                    <path
+                        d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                </svg>
+            </button>
+            <input class="w-full h-12 font-roboto pl-12 bg-background-serch-input rounded-full" type="text"
+                placeholder="Pesquisar e-mail">
         </div>
         <div class="w-48 border border-orange-400">
             <p class="text-white">Teste 1</p>
